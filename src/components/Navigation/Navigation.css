@@ -1,0 +1,38 @@
+.full-nav-area{
+    background: #EDEAEB;
+  }
+  
+  .nav-full-area{
+   
+  }
+  .nav-full-area button{
+  
+   border: 1px solid #007ACC;
+  }
+  .nav-bar-icon{
+  
+  
+  }
+  .nav-full-area a{
+  
+  }
+  .navigation-area{
+    
+  }
+  .navigation-area ul{
+    
+  }
+  .navigation-area ul li{
+    
+  }
+  
+  .navigation-area ul li .nav-link{
+    font-size: 18px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  .navigation-area ul li .nav-link:hover{
+    border: 1px solid #007ACC;
+    border-radius: 10px;
+  }
