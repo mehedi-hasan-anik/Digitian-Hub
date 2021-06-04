@@ -13,6 +13,7 @@ import Breed from './components/Breed/Breed';
 import Contact from './components/Contcat/Contact';
 import Navigation from './components/Navigation/Navigation';
 import NotFound from './components/NotFound/NotFound';
+import AboutUs from './components/AboutUs/AboutUs';
 
 export const userContext = createContext();
 
@@ -34,14 +35,14 @@ function App() {
                 <Route path="/breeds">
                    <Breeds></Breeds>
                 </Route>
-                <Route path="/breed">
-                  <Breed></Breed>
+                <Route path="/about">
+                   <AboutUs></AboutUs>
                 </Route>
-                <Route path="/single/:singleId">
+                <Route path="/breed/:singleName">
                    <SingleBreedDetails></SingleBreedDetails>
                 </Route>
                 <Route exact path="/">
-                  <Home />
+                    <Home></Home>
                 </Route>
                 <Route  path="*">
                   <NotFound></NotFound>

@@ -1,0 +1,14 @@
+.full-abouta-area{
+  background: #DCDCDC;
+  padding-top: 50px;
+}
+.inner-about-area{
+
+}
+.inner-about-area h1{
+   text-align: center;
+   padding-bottom: 10px;
+}
+.inner-about-area p{
+    text-align:justify;
+}

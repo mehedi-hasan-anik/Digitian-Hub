@@ -11,10 +11,10 @@ const Breeds = () => {
         .then(res=>res.json())
         .then(data=>setAllBreed(data))
     },[])
-    const twentyBreeds= allBreed.slice(0, 20);
+    const twentyBreeds= allBreed.slice(0,20);
     
     return (
-        <div>
+        <div className="full-breeds-area">
             <div className="container">
                 <div className="row">
                     {

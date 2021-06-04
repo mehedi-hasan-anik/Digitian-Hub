@@ -1,5 +1,5 @@
 .contact{
- 
+ background: #DCDCDC;
 }
 .contact::before{
     position: absolute;
@@ -10,26 +10,29 @@
     opacity: .5;
     z-index: -1;
 }
+.section-header{
+    
+}
 .form-group{
     padding-top: 10px;
 }
 .form-group input[type="submit"]{
-    background: #007ACC;
+    background: #40C1B9;
     color: white;
     width: 100%;
     max-width: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     border:0px;
     padding: 8px 20px;
 }
 .form-group input{
-
+ 
 }
 .form-group input[type="text-area"]{
   
 }
 .form-group input[type="submit"]:hover{
-    background: #090955;
+    background: #0d8880;
     color: white;
 }
 

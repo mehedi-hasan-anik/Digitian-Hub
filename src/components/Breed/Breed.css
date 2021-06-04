@@ -1,0 +1,46 @@
+.full-breed-area{
+    background: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.full-breed-area:hover{
+    background: #40C1B9;
+}
+
+.full-breed-area:hover .inner-full-breed-area {
+    background: white;
+}
+.inner-full-breed-area{
+    background: #DCDCDC;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.inner-full-breed-area img{
+    height: 170px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.inner-full-breed-area h4{
+ padding: 10px 10px 50px 10px;
+}
+.inner-full-breed-area button{
+    text-align: center;
+    background: #40C1B9;
+    color: white;
+    width: 100%;
+    border: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+.inner-full-breed-text-area{
+    height: 150px;
+    position: relative;
+}
+.inner-full-breed-text-area button{
+    position: absolute;
+    content: '';
+    left: 0%;
+    bottom: 0%;
+}

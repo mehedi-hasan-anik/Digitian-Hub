@@ -5,7 +5,7 @@ const Contact = () => {
         <section className="contact  py-5 ">
         <div className="container">
             <div className="section-header text-center  mb-5">
-                 <h2 className="text-primary">Contact</h2>
+                 <h2>Contact</h2>
             </div>
             <div className="col-md-9 mx-auto">
                 <form action="https://formcarry.com/s/JPbGpbi0qPn" method="POST" accept-charset="UTF-8">

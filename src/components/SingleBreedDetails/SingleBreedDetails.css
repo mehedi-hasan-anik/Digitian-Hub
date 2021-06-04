@@ -1,6 +1,29 @@
+.full-single-breed-details{
+    background: #DCDCDC;
+    padding: 100px 0px 200px 0px;
+}
 .cart-area{
-    background: red;
-    margin-top: 10px;
+    background: #40C1B9;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+}
+.cart-area-left{
+  margin: 0;
+  padding: 0;
+}
+.cart-area-left img{
+    border-radius: 10px 0px 0px 10px;
+}
+.cart-area-right{
+  padding: 0px 0px 0px 40px;
+  color: #496076;
+}
+.cart-area-right h1 {
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.cart-area-right p{
+    line-height: .8em;
+    font-weight: 700;
 }

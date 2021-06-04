@@ -4,6 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import  { StrictMode } from "react";
+
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+  rootElement
+);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
